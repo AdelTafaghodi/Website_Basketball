@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 200px;
+}
+.logo-basketball img{
+    width: 55px;
+    position: absolute;
+    left: 64px;
+    top: 22px;
+}
+.menu ul{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.header ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: border 0.1s;
+    font-weight: bold;
+
+}
+.header ul li:hover{
+    border-top: 2px solid #188BE5;
+
+}
+.menu .active{
+    border-top: 2px solid #188BE5;
+}
+.search input{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    float: right;
+    background-image: url('img/loupe.png');
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: 150px 0px;
+    border: none;
+    border-bottom: 2px solid #47a5ec;
+    outline: 0;
+    font-size: 14px;
+}
+
+.shop-icon {
+    position: absolute;
+    display: inline;
+    float: right;
+    top: 40px;
+    right: 90px;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.social{
+    width: 10%;
+    display: inline;
+    position: absolute;
+
+}
+.social ul li{
+    list-style: none;
+    margin: 20px 40px;
+}
+
+.text{
+    width: 35%;
+    position: absolute;
+    left: 150px;
+}
+.text h1{
+    word-spacing: 2px;
+    position: absolute;
+}
+
+.text h1::after{
+    content: '' ;
+    color: rgb(194, 37, 37);
+    height: 1px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+}
+
+.text p{
+    position: absolute;
+    top: 100px;
+    word-spacing: 1.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.text a img{
+    display: inline-flex;
+    position: absolute;
+    top: 210px;
+
+}
+
+.text span{
+    display: inline-flex;
+    position: absolute;
+    top: 215px;
+    color: black;
+    margin-left: 45px;
+
+}
+
+.picture{
+    width: 55%;
+    display: inline;
+    position: absolute;
+
+}
+
+.player{
+    display: inline;
+    width: 550px;
+    position: absolute;
+    right: 50px;
+    bottom: -100px;
+}
